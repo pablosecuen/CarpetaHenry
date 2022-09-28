@@ -1,0 +1,15 @@
+Homework: intri a JS-I
+
+*Variables: es una herramienta que nos permite almacenar temporalmente información determinada por nosotros para ser utlizada mas tarde con el nombre que le fuere asignado, puede asignarse un valor a esta variable o incluir elementos tales como funciones para poder ahorrarnos tiempo de trabajo, una vez completamos la información o los valores que querramos y le asignemos un nombre a nuestra variable.
+
+*strings: string son letras o numeros entre comillas
+
+*funciones: son elementos a los que le asignamos una acción o función mediante la cual asignamos tareas y poder predecir el resultado de las variables. Podemos asignarle argumentos (strings, operaciones matemáticas, o valores verdaderos/falsos)
+
+	*argumentos: los argumentos son informacion que cargamos dentro de las funciones para determinar la devolución dentro de nuestra terminal, esta información puede ser de tipo strings, operaciones matemáticas, o valores verdaderos/falsos, o tambien puede ser variables que hayamos predefinid.
+	*return: este comando o declaración es utilizado para obtener una devolucion/resultado dentro de nuestras funciones, sea cual sea la orden que asignamos dentro de la funcion, ya sea la suma de numeros, un bloque de strings, o la determinación de un true/false segun las condiciones que hayamos asignado, una vez que la funcion llega a la declaracion de return ejecutara la misma con prioridad deteneniendo la devolucion en ese punto (es decir que no devolvera las lineas de codigo que haya por debajo de la declaración return)
+
+*Declaraciones: las declaraciones son ordenes o instrucciones, el conjunto de ellas determinan el comportamiento de nuestro codigo integralmente e individualmente.
+
+*Valores Booleanos:
+estos son valores verdaderos/falsos, representan los 0 y del codigo binario y lo utilizamos para determinar condiciones dentro de la ejecución dentro de nuestro codigo, como por ejemplo determinar si dada algunas condiciones definidas nuestro codigo ejecuta una acción u otra dependiento de los valores que vaya recibiendo el interprete.
