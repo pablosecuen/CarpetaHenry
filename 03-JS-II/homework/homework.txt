@@ -1,0 +1,9 @@
+Bucle For: 
+es una expreción de bucle, que nos permite determinar 3 condiciones dentro de nuestra función para poder hacer calculos que se ejectuten de manera automatica segun las condiciones que nosotros determinemos con nuestra variable, hasta que expresemos una condicion falsa, es decir que el codigo se ejectura siempre que entregue un valor booleano verdadero, de esta manera nosotros podemos controlar el inicio, el final, y lo que sucedera durante la ejecución del código.
+
+
+&& representa el "y" en nuestro codigo y nos sirve para incorporar varias condiciones en una misma linea de codigo y hacer mas facil la escritura y la lectura del mismo donde ambas tienen que coincidir con las condiciones  definidas para devolver el valor booleano asignado
+
+|| representa la "o" en nuestro codigo y nos sirve para incorporar varias condiciones en una misma linea de codigo y hacer mas facil la escritura y la lectura del mismo donde solo una tiene que coincidir con las condiciones definidas para devolver el valor booleano asignado
+
+! representa una negación en nuestro codigo para representar la palabra no, por ejemplo para decir que algo no es igual representamos de la siguiente manera: !==
