@@ -106,9 +106,9 @@ function esEntero(numero) {
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
   if (numero % 1 ===0){
-    return true
+    return true;
   }else{
-    return false
+    return false;
   }
 }
 
@@ -160,7 +160,7 @@ function esPrimo(numero) {
   // Nota: Los números 0 y 1 NO son considerados números primos
   if(numero === 0 || numero === 1 || numero === 4){
     return false;
-  }for (let x = 2; x < numero /2; x++){
+  }for (var x = 2; x < numero /2; x++){
     if (numero % x ===0)
       return false;
     }
@@ -183,8 +183,8 @@ function tablaDelSeis(){
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
   let arraytablaDelSeis = []
-  for (let i = 0; i < 11; i++) {
-      arraytablaDelSeis.push(6 * i)
+  for (let x = 0; x < 11; x++) {
+      arraytablaDelSeis.push(6 * x)
   }
   return arraytablaDelSeis
 }
