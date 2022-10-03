@@ -1,0 +1,13 @@
+Conceptos:
+
+	Objetos: "los objetos son listados que nos permiten detallar diferentes propiedades con claves y valores "key:value" para poder realizar operaciones algo mas complejas que con un array, estas propiedades pueden ser numeros, strings, variables e incluso funciones, y agregan algunas extensiones de tipo .this y .that para poder dar direcciones dentro del scope del objeto donde estemos trabajando.
+
+	propiedades: las propiedades son los identificadores que incluiremos dentro de nuestros objetos para manipularlos acorde a nuestro código vaya indicando, estas propiedades tienen valores asignados dentro. tenemos el poder de listaras, agregar o quitar propiedades a nuestra voluntad siempre y cuando las nombremos adecuadamente dentro del objeto que estemos manipulando
+	
+	métodos: los metodos son las funciones que asignemos dentro de nuestros objetos como .length o .push Podemos utilizar estos métodos utilizando notación de puntos al igual que con el resto de los usados anteriormente con parentesis al final, por ejemplo "objeto.método()" 
+
+	bucle "for... in": los bucles for in, nos sirven para iterar o recorrer cada propiedad dentro de nuestro objeto, en un array podemos hacerlo porque los valores se encuentran automaticamente numerados a partir del "0",
+en nuestros objetos las "claves" serian el identificador para los valores que les asignemos; en una variable de tipo "for... in" esto nos permitira recorrer cada clave dentro de nuestro objeto en busqueda de lo que le indiquemos y ejectura la acción tambien indicada en el codigo
+
+
+	notación de punto vs notación de corchetes: son 2 maneras de acceder a la propiedad dentro  de nuestros objetos por ej, "objetos.propiedad" o "objetos[propiedad], ambas son válidas pero los corchetes nos permites utlizar variables dentro de estos y debe esta asociada a una string
