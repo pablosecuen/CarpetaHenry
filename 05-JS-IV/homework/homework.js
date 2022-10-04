@@ -8,14 +8,14 @@ function crearGato (nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
-  const objeto = {
+  const gato = {
     nombre: nombre,
     edad: edad,
     meow: function() {
       return 'Meow!';
     }
   };
-  return objeto;
+  return gato;
 }
 
 function agregarPropiedad (objeto, property) {
@@ -24,7 +24,6 @@ function agregarPropiedad (objeto, property) {
   // NOTA: El nombre de la propiedad no es "propiedad", el nombre es el valor del argumento llamado "property" (una cadena/string)
   // Tu código:
   objeto[property] = null;
-
   return objeto;
 }
 
@@ -42,9 +41,7 @@ function multiplicarNumeroDesconocidoPorCinco (objetoMisterioso) {
   // Tu código:
   //multplicar numeroMisterioso x 5 (propiedad dentro del objeto "objetoMisterioso")
   //devolver el resultado del producto
-let producto = objetoMisterioso.numeroMisterioso * 5;
-  return producto;
-
+return objetoMisterioso.numeroMisterioso * 5;
 }
 
 function eliminarPropiedad (objeto, unaPropiedad) {
@@ -53,7 +50,6 @@ function eliminarPropiedad (objeto, unaPropiedad) {
   // Devuelve el objeto
   // Tu código:
   delete objeto[unaPropiedad];
-
   return objeto;
 }
 
@@ -61,13 +57,12 @@ function nuevoUsuario (nombre, email, password) {
   // Crea un nuevo objeto con las propiedades coincidiendo con los argumentos que se pasan a la función
   // Devuelve el objeto
   // Tu código:
-  let nuevoObjeto = {
+  let nuevoUsuario = {
     nombre: nombre,
     email: email,
-    password: password
+    password: password,
   }
-
-  return nuevoObjeto;
+  return nuevoUsuario;
 }
 
 function tieneEmail (usuario) {
@@ -140,8 +135,7 @@ let suma = 0
 
   for (var i = 0; i < usuario.posts.length; i++) {
   suma = suma + usuario.posts[i].likes;
-  }
-  return suma;
+  }  return suma;
 }
 
 function agregarMetodoCalculoDescuento (producto) {
@@ -155,9 +149,6 @@ function agregarMetodoCalculoDescuento (producto) {
   // producto.calcularPrecioDescuento() -> 20 - (20 * 0.2)
   // Tu código:
 
-  //agregar funcion a producto.calcularPrecioDescuento
-  //multiplicar "precio x producto x porcentajeDeDescuento"
-  //return objeto al final
   producto.calcularPrecioDescuento = function (){
     return this.precio - (this.precio * this.porcentajeDeDescuento);
   }
